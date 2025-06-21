@@ -64,12 +64,12 @@ This case study focuses on understanding and processing logistics data to:
   - Parse `source_name` and `destination_name` into city and state
 
 - **Hypothesis Testing**  
-  - Compare OSRM vs actual metrics (time, distance)
-  - Compare segment-level vs trip-level metrics
+  - Compare **OSRM vs actual** metrics (time, distance)
+  - Compare **segment-level** vs **trip-level metrics**
   - Use t-tests, Levene’s test, and visual analysis
 
 - **Outlier Detection**  
-  - Use IQR method to detect and clip extreme values
+  - Use **IQR** method to detect and clip **extreme values**
 
 - **Encoding & Scaling**  
   - One-hot encode `route_type`
